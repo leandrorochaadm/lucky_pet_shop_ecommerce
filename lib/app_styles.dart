@@ -7,6 +7,7 @@ const Color kGrey = Color(0xff646379);
 const Color kLightGrey = Color(0xff838092);
 const Color kOrange = Color(0xffECA27E);
 const Color kLightOrange = Color(0xffFEECE5);
+const Color kBlack = Color(0xff3E3D50);
 const Color kWhite = Color(0xffFFFFFF);
 
 const double kPaddingHorizontal = 30.0;
@@ -22,4 +23,7 @@ final kSourceSansProMedium = GoogleFonts.sourceSansPro(
 );
 final kSourceSansProRegular = GoogleFonts.sourceSansPro(
   fontWeight: FontWeight.w400,
+);
+final kSourceSansProLigth = GoogleFonts.sourceSansPro(
+  fontWeight: FontWeight.w300,
 );
