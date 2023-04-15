@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lucky_pet_shop_ecommerce/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +12,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Lucky Pet Shot E-commerce',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(),
+      home: const Scaffold(
+        body: HomeScreen(),
+      ),
     );
   }
 }
